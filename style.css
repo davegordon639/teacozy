@@ -72,3 +72,43 @@ nav ul li {
   text-align: center;
   padding: 10px;
 }
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image p {
+  text-align: center;
+}
+/* LOCATION */
+.location {
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  padding-top: 125px;
+}
+
+.detail {
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+}
