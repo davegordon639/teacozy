@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  justify-content: flex-start;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav ul {
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.main {
+  width: 0 auto;
+  height: 700px;
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.main img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mission {
+  position: relative;
+  top: -350px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
