@@ -97,12 +97,13 @@ nav ul li {
 .location {
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin-top: 40px;
 }
 
 .list {
   display: flex;
   justify-content: center;
-  margin: 40px;
+  margin: 150px 40px 40px 0px;
   padding-top: 125px;
 }
 
@@ -111,4 +112,12 @@ nav ul li {
   text-align: center;
   width: 300px;
   margin: 20px;
+}
+/* FOOTER */
+.footer {
+  text-align: center;
+}
+
+.copyright {
+  margin-left: 20px;
 }
