@@ -14,7 +14,7 @@ header {
   border-bottom: 1px solid seashell;
   width: 100%;
   justify-content: flex-start;
-  z-index: 1;
+  z-index: 2;
   background-color: black;
 }
 
@@ -47,10 +47,14 @@ nav ul li {
 
 .main {
   width: 0 auto;
-  height: 700px;
+  height: 400px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 70px auto 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  padding-top: 300px;
 }
+
 
 .main img {
   width: 100%;
@@ -59,15 +63,15 @@ nav ul li {
 
 .mission {
   position: relative;
-  top: -350px;
   background-color: black;
   text-align: center;
   padding: 10px;
+  z-index: 1;
 }
 
 .tea {
   position: relative;
-  top: -170px;
+  /*top: -170px;*/
   background-color: black;
   text-align: center;
   padding: 10px;
@@ -97,7 +101,8 @@ nav ul li {
 .location {
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  margin-top: 40px;
+  background-repeat: no-repeat;
+  margin: 40px auto 0px auto;
 }
 
 .list {
